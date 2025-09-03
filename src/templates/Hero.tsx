@@ -12,7 +12,13 @@ const Hero = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="/">Sign in</Link>
+          <Link href="#features">المزايا</Link>
+        </li>
+        <li>
+          <Link href="#contact">تواصل معنا</Link>
+        </li>
+        <li>
+          <Link href="#invest">استثمر الآن</Link>
         </li>
       </NavbarTwoColumns>
     </Section>
@@ -21,14 +27,14 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'The modern landing page for\n'}
-            <span className="text-primary-500">React developers</span>
+            {'استثمر في العقارات بذكاء مع\n'}
+            <span className="text-primary-500">عقارات عصّا</span>
           </>
         }
-        description="The easiest way to build a React landing page in seconds."
+        description="منصة الاستثمار العقاري المجزّأ في السعودية. ابدأ بـ 100,000 ريال واحصل على عوائد تصل إلى 18% خلال 16 شهر"
         button={
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
-            <Button xl>Download Your Free Theme</Button>
+          <Link href="#invest">
+            <Button xl>ابدأ الاستثمار</Button>
           </Link>
         }
       />

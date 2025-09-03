@@ -3,27 +3,28 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="Your title here"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
+    id="features"
+    title="لماذا عقارات عصّا؟"
+    description="استثمر بذكاء واحصل على عوائد مضمونة مع منصتنا المتخصصة في الاستثمار العقاري المجزّأ"
   >
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      title="عوائد مضمونة تصل إلى 18%"
+      description="احصل على عوائد استثمارية ثابتة ومضمونة تصل إلى 18% سنوياً خلال فترة الاستثمار البالغة 16 شهراً"
       image="/assets/images/feature.svg"
-      imageAlt="First feature alt text"
+      imageAlt="عوائد استثمارية عالية"
     />
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      title="استثمار آمن ومضمون"
+      description="جميع استثماراتنا مدروسة بعناية ومضمونة بأصول عقارية حقيقية في أفضل المواقع بالمملكة العربية السعودية"
       image="/assets/images/feature2.svg"
-      imageAlt="Second feature alt text"
+      imageAlt="استثمار آمن ومضمون"
       reverse
     />
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
+      title="ابدأ بـ 100,000 ريال فقط"
+      description="لا تحتاج لملايين الريالات للاستثمار في العقارات. ابدأ رحلتك الاستثمارية بمبلغ 100,000 ريال سعودي فقط"
       image="/assets/images/feature3.svg"
-      imageAlt="Third feature alt text"
+      imageAlt="استثمار بمبلغ صغير"
     />
   </Section>
 );

@@ -5,13 +5,13 @@ import { CTABanner } from '../cta/CTABanner';
 import { Section } from '../layout/Section';
 
 const Banner = () => (
-  <Section>
+  <Section id="invest">
     <CTABanner
-      title="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-      subtitle="Start your Free Trial."
+      title="ابدأ رحلتك الاستثمارية اليوم"
+      subtitle="انضم لأكثر من 500 مستثمر راضٍ واحصل على عوائد تصل إلى 18%"
       button={
-        <Link href="https://creativedesignsguru.com/category/nextjs/">
-          <Button>Get Started</Button>
+        <Link href="#contact">
+          <Button>ابدأ الاستثمار الآن</Button>
         </Link>
       }
     />
