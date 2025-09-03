@@ -23,5 +23,10 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "prettier.ignorePath": ".gitignore" // Don't run prettier for files listed in .gitignore
+  "prettier.ignorePath": ".gitignore",
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#063524",
+    "titleBar.activeBackground": "#084A33",
+    "titleBar.activeForeground": "#EEFDF8"
+  } // Don't run prettier for files listed in .gitignore
 }
