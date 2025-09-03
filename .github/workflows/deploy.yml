@@ -37,8 +37,8 @@ jobs:
       - name: Build and export
         run: npm run deploy
 
-      - name: Remove CNAME to disable custom domain
-        run: rm -f ./dist/CNAME
+      - name: Ensure CNAME is present for custom domain
+        run: echo "essareal.com" > ./dist/CNAME
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
