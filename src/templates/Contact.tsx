@@ -4,7 +4,7 @@ const Contact = () => (
   <Section
     id="contact"
     title="تواصل معنا"
-    description="جاهزون للإجابة على جميع استفساراتكم ومساعدتكم في بدء رحلتكم الاستثمارية"
+    description="جاهزون للإجابة على جميع استفساراتكم ومساعدتكم في الحصول على منزل أحلامكم"
   >
     <div className="grid grid-cols-1 gap-12 lg:grid-cols-2">
       {/* Contact Information */}
@@ -21,7 +21,7 @@ const Contact = () => (
                   <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                 </svg>
               </div>
-              <span className="text-gray-700">info@essareal.com</span>
+              <span className="text-gray-700">info@essamreal.com</span>
             </div>
             <div className="flex items-center space-x-3 space-x-reverse">
               <div className="size-6 shrink-0 text-primary-500">
@@ -130,23 +130,22 @@ const Contact = () => (
           </div>
           <div>
             <label
-              htmlFor="investment"
+              htmlFor="service"
               className="mb-1 block text-sm font-medium text-gray-700"
             >
-              المبلغ المتوقع للاستثمار
+              نوع الخدمة المطلوبة
             </label>
             <select
-              id="investment"
-              name="investment"
+              id="service"
+              name="service"
               className="w-full rounded-md border border-gray-300 px-3 py-2 focus:border-transparent focus:outline-none focus:ring-2 focus:ring-primary-500"
             >
-              <option value="">اختر المبلغ</option>
-              <option value="100000-500000">100,000 - 500,000 ريال</option>
-              <option value="500000-1000000">500,000 - 1,000,000 ريال</option>
-              <option value="1000000-5000000">
-                1,000,000 - 5,000,000 ريال
-              </option>
-              <option value="5000000+">أكثر من 5,000,000 ريال</option>
+              <option value="">اختر نوع الخدمة</option>
+              <option value="design">التصميم المعماري</option>
+              <option value="construction">البناء والتشييد</option>
+              <option value="consultation">الاستشارات الهندسية</option>
+              <option value="turnkey">مشروع متكامل</option>
+              <option value="other">خدمة أخرى</option>
             </select>
           </div>
           <div>

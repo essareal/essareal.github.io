@@ -12,13 +12,16 @@ const Hero = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="#features">المزايا</Link>
+          <Link href="#about">عن الشركة</Link>
+        </li>
+        <li>
+          <Link href="#vision">رؤيتنا</Link>
+        </li>
+        <li>
+          <Link href="#projects">مشاريعنا</Link>
         </li>
         <li>
           <Link href="#contact">تواصل معنا</Link>
-        </li>
-        <li>
-          <Link href="#invest">استثمر الآن</Link>
         </li>
       </NavbarTwoColumns>
     </Section>
@@ -27,14 +30,14 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'استثمر في العقارات بذكاء مع\n'}
-            <span className="text-primary-500">عقارات عصّا</span>
+            {'نبني أحلامكم بجودة عالية مع\n'}
+            <span className="text-primary-500">عصام</span>
           </>
         }
-        description="منصة الاستثمار العقاري المجزّأ في السعودية. ابدأ بـ 100,000 ريال واحصل على عوائد تصل إلى 18% خلال 16 شهر"
+        description="شركة رائدة في بناء وتصميم المساكن العصرية التي تتوافق مع الهوية السعودية وتلبي جميع احتياجات ومتطلبات الأسر السعودية"
         button={
-          <Link href="#invest">
-            <Button xl>ابدأ الاستثمار</Button>
+          <Link href="#about">
+            <Button xl>تعرف على خدماتنا</Button>
           </Link>
         }
       />
