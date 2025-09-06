@@ -1,19 +1,20 @@
-import Link from 'next/link';
 import type { ReactNode } from 'react';
 
 type INavbarProps = {
   logo: ReactNode;
   children: ReactNode;
+  textColor?: string;
 };
 
 const NavbarTwoColumns = (props: INavbarProps) => (
   <div className="flex flex-wrap items-center justify-between">
-    <div>
-      <Link href="/">{props.logo}</Link>
-    </div>
-
+    <div>{props.logo}</div>
     <nav>
-      <ul className="navbar flex items-center text-xl font-medium text-gray-800">
+      <ul
+        className={`navbar mt-4 flex items-center text-xl font-medium ${
+          props.textColor || 'text-gray-800'
+        } md:mt-0 md:space-x-8 md:space-x-reverse`}
+      >
         {props.children}
       </ul>
     </nav>

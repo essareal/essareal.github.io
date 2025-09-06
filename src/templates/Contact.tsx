@@ -8,7 +8,7 @@ const Contact = () => (
           <div className="arabic-text mb-6 text-2xl font-bold">
             عصام الرصيّص
           </div>
-          <div className="flex items-center justify-center space-x-6 rtl:space-x-reverse">
+          <div className="flex items-center justify-center space-x-4 md:space-x-6 rtl:space-x-reverse">
             {/* WhatsApp Link */}
             <a
               href="https://wa.me/966590008626"
@@ -36,8 +36,34 @@ const Contact = () => (
               />
               <span>Call</span>
             </a>
+
+            {/* Email Link */}
+            <a
+              href="mailto:info@essamreal.com"
+              className="flex flex-col items-center text-xl text-primary-700 transition-colors duration-200 hover:text-primary-800 hover:opacity-80"
+            >
+              <img
+                src="/assets/icons/email.svg"
+                alt="Email"
+                className="mb-2 size-8"
+              />
+              <span>Email</span>
+            </a>
           </div>
-          <div className="mt-6 text-xl text-primary-700">+966 59 000 8626</div>
+          <div className="mt-6 flex flex-col items-center text-xl text-primary-700">
+            <a
+              href="tel:+966590008626"
+              className="transition-colors duration-200 hover:text-primary-800"
+            >
+              +966 59 000 8626
+            </a>
+            <a
+              href="mailto:info@essamreal.com"
+              className="mt-2 transition-colors duration-200 hover:text-primary-800"
+            >
+              info@essamreal.com
+            </a>
+          </div>
         </div>
       </div>
     </div>
