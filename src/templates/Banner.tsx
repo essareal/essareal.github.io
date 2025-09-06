@@ -7,8 +7,8 @@ import { Section } from '../layout/Section';
 const Banner = () => (
   <Section id="projects">
     <CTABanner
-      title="اكتشف مشاريعنا المميزة"
-      subtitle="مساكن عصرية بتصميم رائع وجودة عالية تتوافق مع الهوية السعودية"
+      title="هل أنتم مستعدون لبناء منزل أحلامكم؟"
+      subtitle="تواصلوا معنا للبدء في تصميم وبناء المسكن الذي يلبي جميع تطلعاتكم."
       button={
         <Link href="#contact">
           <Button>تواصل معنا</Button>

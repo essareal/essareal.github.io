@@ -14,8 +14,9 @@ module.exports = withBundleAnalyzer({
   // So, the source code is "basePath-ready".
   // You can remove `basePath` if you don't need it.
   reactStrictMode: true,
-  output: 'export',
-  distDir: 'dist',
+  // Comment out for development to fix "missing required error components" issue
+  // output: 'export',
+  // distDir: 'dist',
   images: {
     unoptimized: true,
   },

@@ -4,8 +4,8 @@ import { Section } from '../layout/Section';
 const VerticalFeatures = () => (
   <Section
     id="about"
-    title="لماذا عصام؟"
-    description="نحن شركة رائدة في بناء المساكن بجودة عالية وتصميم عصري يتوافق مع الهوية والثقافة السعودية"
+    title="لماذا عصام الرصيّص؟"
+    description="نحن شركة عصام الرصيّص المتخصصة في بناء وبيع المساكن بجودة عالية وتصميم عصري يتوافق مع الهوية والثقافة السعودية"
   >
     <VerticalFeatureRow
       title="جودة عالية في البناء"

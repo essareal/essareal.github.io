@@ -18,7 +18,7 @@ const Hero = () => (
           <Link href="#vision">رؤيتنا</Link>
         </li>
         <li>
-          <Link href="#projects">مشاريعنا</Link>
+          <Link href="#about">خدماتنا</Link>
         </li>
         <li>
           <Link href="#contact">تواصل معنا</Link>
@@ -31,10 +31,10 @@ const Hero = () => (
         title={
           <>
             {'نبني أحلامكم بجودة عالية مع\n'}
-            <span className="text-primary-500">عصام</span>
+            <span className="text-primary-500">عصام الرصيّص</span>
           </>
         }
-        description="شركة رائدة في بناء وتصميم المساكن العصرية التي تتوافق مع الهوية السعودية وتلبي جميع احتياجات ومتطلبات الأسر السعودية"
+        description="شركة عصام الرصيّص تأسست عام 2025، نتخصص في بناء وبيع المساكن بجودة عالية وتصميم عصري رائع يتوافق مع الهوية السعودية ويحقق جميع متطلبات ورغبات الأسر السعودية"
         button={
           <Link href="#about">
             <Button xl>تعرف على خدماتنا</Button>
