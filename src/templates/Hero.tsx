@@ -9,9 +9,9 @@ import { Logo } from './Logo';
 
 const Hero = () => (
   <Background color="bg-gray-800" imageUrl="/assets/images/saudi-family.png">
-    <div className="bg-black bg-opacity-50 backdrop-blur-lg">
+    <div className="bg-white bg-opacity-50 backdrop-blur-lg">
       <Section yPadding="py-6">
-        <NavbarTwoColumns logo={<Logo xl />} textColor="text-white">
+        <NavbarTwoColumns logo={<Logo xl />} textColor="text-gray-900">
           <li>
             <Link href="#about">عن الشركة</Link>
           </li>
