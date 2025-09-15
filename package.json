@@ -1,6 +1,7 @@
 {
   "name": "next-js-boilerplate",
   "version": "1.0.0",
+  "homepage": "https://essamreal.github.io/essamreal",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,8 +13,7 @@
     "format": "next lint --fix && prettier '**/*.{json,yaml}' --write --ignore-path .gitignore",
     "check-types": "tsc --noEmit --pretty",
     "prepare": "husky install",
-    "export": "next build",
-    "deploy": "npm run export && touch ./dist/.nojekyll"
+    "export": "next build"
   },
   "dependencies": {
     "classnames": "^2.5.1",
