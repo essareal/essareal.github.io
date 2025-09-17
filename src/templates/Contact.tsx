@@ -5,8 +5,10 @@ const Contact = () => (
     <div className="text-center">
       <div className="bg-primary-50 mx-auto max-w-md rounded-lg p-8 shadow-lg">
         <div className="text-primary-900">
-          <div className="arabic-text mb-6 text-2xl font-bold">
-            عصام الرصيّص
+          <div className="flex justify-center">
+            <div className="arabic-text mb-6 text-2xl font-bold">
+              عصام الرصيّص
+            </div>
           </div>
           <div className="flex items-center justify-center space-x-4 md:space-x-6 rtl:space-x-reverse">
             {/* WhatsApp Link */}

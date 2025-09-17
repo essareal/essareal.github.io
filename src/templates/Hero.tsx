@@ -12,11 +12,11 @@ const Hero = () => (
   <Background
     color="bg-transparent"
     imageUrl="/assets/images/saudi-family.png"
-    blur="blur-2xl"
+    blur="blur-sm"
   >
-    <div className="bg-white bg-opacity-50 backdrop-blur-lg">
+    <div className="bg-white/50 backdrop-blur-lg">
       <Section yPadding="py-6">
-        <NavbarTwoColumns logo={<Logo xl />} textColor="text-gray-900">
+        <NavbarTwoColumns logo={<Logo xl />} textColor="text-white">
           <li>
             <Link href="#about">عن الشركة</Link>
           </li>
