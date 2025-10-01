@@ -11,6 +11,7 @@ const FooterCopyright = () => {
       <div className="mt-1 text-sm">
         شركة عصام عبدالله الرصيص للتطوير العقاري
       </div>
+      <div className="mt-1 text-sm">رقم السجل التجاري: 7050947402</div>
       {/*
        * PLEASE READ THIS SECTION
        * I'm an indie maker with limited resources and funds, I'll really appreciate if you could have a link to my website.

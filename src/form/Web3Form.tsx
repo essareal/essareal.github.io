@@ -4,7 +4,7 @@ const Web3Form = () => {
   return (
     <section className="contact-section">
       <div className="contact-intro mb-4">
-        <h2 className="contact-title">تواصل معنا</h2>
+        <h2 className="contact-title text-primary-900">تواصل معنا</h2>
       </div>
 
       <p className="contact-description">

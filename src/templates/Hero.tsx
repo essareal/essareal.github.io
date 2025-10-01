@@ -24,7 +24,7 @@ const Hero = () => (
     <Section
       id="vision"
       title="رؤيتنا"
-      description="نطور مساكن تعبر عن ثقافتنا وتعزز حيوتنا، وتمنحك السكون."
+      description="نطور مساكن تعبر عن ثقافتنا وتعزز حيويتنا، وتمنحك السكون."
       yPadding="pt-8 pb-16"
     >
       <div className="text-center"></div>
