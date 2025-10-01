@@ -5,8 +5,8 @@ import { Banner } from './Banner';
 import { Contact } from './Contact';
 import { Footer } from './Footer';
 import { Hero } from './Hero';
+import { Values } from './Values';
 import { VerticalFeatures } from './VerticalFeatures';
-import { Vision } from './Vision';
 
 const Base = () => {
   const defaultVariants = {
@@ -17,10 +17,10 @@ const Base = () => {
     <div className="text-gray-600 antialiased">
       <Meta title={AppConfig.title} description={AppConfig.description} />
       <Hero />
-      <VerticalFeatures />
       <ScrollAnimation variants={defaultVariants}>
-        <Vision />
+        <Values />
       </ScrollAnimation>
+      <VerticalFeatures />
       <ScrollAnimation variants={defaultVariants}>
         <Banner />
       </ScrollAnimation>

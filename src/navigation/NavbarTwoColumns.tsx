@@ -7,13 +7,18 @@ type INavbarProps = {
 };
 
 const NavbarTwoColumns = (props: INavbarProps) => (
-  <div className="flex flex-wrap items-center justify-between">
+  <div className="flex flex-col items-center">
     <div>{props.logo}</div>
+    {/* small gray letters below the logo */}
+    <div className="-mt-8 max-w-48 text-center text-sm leading-tight text-gray-500">
+      شركة عصام عبدالله الرصيص للتطوير العقاري
+    </div>
+
     <nav>
       <ul
-        className={`navbar mt-4 flex items-center text-xl font-medium ${
+        className={`navbar flex items-center text-xl font-medium ${
           props.textColor || 'text-gray-800'
-        } md:mt-0 md:space-x-8 md:space-x-reverse`}
+        } md:space-x-8 md:space-x-reverse`}
       >
         {props.children}
       </ul>

@@ -23,7 +23,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-intersection-observer": "^9.16.0",
-    "styled-jsx-plugin-postcss": "^4.0.1"
+    "styled-jsx-plugin-postcss": "^4.0.1",
+    "tailwindcss-rtl": "^0.9.0"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^14.1.0",

@@ -1,13 +1,10 @@
 import className from 'classnames';
-import { useRouter } from 'next/router';
 
 import { ScrollAnimation } from '../animation/ScrollAnimation';
 
 type IVerticalFeatureRowProps = {
   title: string;
   description: string;
-  image: string;
-  imageAlt: string;
   reverse?: boolean;
 };
 
@@ -22,13 +19,6 @@ const VerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
     },
   );
 
-  const router = useRouter();
-
-  const imageVariants = {
-    hidden: { opacity: 0, x: props.reverse ? -100 : 100 },
-    visible: { opacity: 1, x: 0 },
-  };
-
   const textVariants = {
     hidden: { opacity: 0, x: props.reverse ? 100 : -100 },
     visible: { opacity: 1, x: 0 },
@@ -36,7 +26,7 @@ const VerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
 
   return (
     <div className={verticalFeatureClass}>
-      <div className="w-full text-center sm:w-1/2 sm:px-6">
+      <div className="w-full text-center sm:px-6">
         <ScrollAnimation variants={textVariants}>
           <div>
             <h3 className="text-3xl font-semibold text-gray-900">
@@ -44,12 +34,6 @@ const VerticalFeatureRow = (props: IVerticalFeatureRowProps) => {
             </h3>
             <div className="mt-6 text-xl leading-9">{props.description}</div>
           </div>
-        </ScrollAnimation>
-      </div>
-
-      <div className="w-full p-6 sm:w-1/2">
-        <ScrollAnimation variants={imageVariants}>
-          <img src={`${router.basePath}${props.image}`} alt={props.imageAlt} />
         </ScrollAnimation>
       </div>
     </div>

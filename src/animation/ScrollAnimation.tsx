@@ -14,6 +14,7 @@ const ScrollAnimation = ({ children, variants }: ScrollAnimationProps) => {
   const [ref, inView] = useInView({
     triggerOnce: true,
     threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px',
   });
 
   useEffect(() => {
@@ -23,15 +24,17 @@ const ScrollAnimation = ({ children, variants }: ScrollAnimationProps) => {
   }, [controls, inView]);
 
   return (
-    <motion.div
-      ref={ref}
-      initial="hidden"
-      animate={controls}
-      variants={variants}
-      transition={{ duration: 0.8, ease: 'easeOut' }}
-    >
-      {children}
-    </motion.div>
+    <div style={{ overflow: 'hidden' }}>
+      <motion.div
+        ref={ref}
+        initial="hidden"
+        animate={controls}
+        variants={variants}
+        transition={{ duration: 0.8, ease: 'easeOut' }}
+      >
+        {children}
+      </motion.div>
+    </div>
   );
 };
 

@@ -6,22 +6,10 @@ const FooterCopyright = () => {
   return (
     <div className="footer-copyright px-4 py-2 text-center sm:px-6 lg:px-8">
       <div className="flex flex-wrap items-center justify-center gap-1 text-sm leading-relaxed sm:text-base">
-        <span className="whitespace-nowrap">© Copyright {currentYear}</span>
-        <span className="font-medium text-primary-600 dark:text-primary-400">
-          {AppConfig.title}
-        </span>
-        <span className="whitespace-nowrap">
-          . Made with{' '}
-          <a
-            href="https://creativedesignsguru.com"
-            className="inline-flex items-center rounded-sm transition-colors duration-200 hover:underline focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            CreativeDesignsGuru
-          </a>
-          .
-        </span>
+        © Copyright {currentYear} {AppConfig.title}.
+      </div>
+      <div className="mt-1 text-sm">
+        شركة عصام عبدالله الرصيص للتطوير العقاري
       </div>
       {/*
        * PLEASE READ THIS SECTION

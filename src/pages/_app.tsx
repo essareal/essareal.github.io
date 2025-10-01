@@ -1,4 +1,5 @@
 import '../styles/global.css';
+import '../styles/Web3Form.css';
 
 import type { AppProps } from 'next/app';
 
